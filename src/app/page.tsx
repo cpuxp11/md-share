@@ -40,11 +40,11 @@ export default function LandingPage() {
     }
 
     // Direct path: assume md-share-db
-    router.push(`/view/cpuxp/md-share-db/main/${url.replace(/^\//, "")}`);
+    router.push(`/view/cpuxp11/md-share-db/main/${url.replace(/^\//, "")}`);
   };
 
   const openSample = (path: string) => {
-    router.push(`/view/cpuxp/md-share-db/main/${path}`);
+    router.push(`/view/cpuxp11/md-share-db/main/${path}`);
   };
 
   return (
@@ -124,7 +124,7 @@ export default function LandingPage() {
       {/* Footer */}
       <footer className="mt-12 text-center opacity-50 text-sm">
         <a
-          href="https://github.com/cpuxp/md-share"
+          href="https://github.com/cpuxp11/md-share"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-1 hover:opacity-100 transition-opacity"
